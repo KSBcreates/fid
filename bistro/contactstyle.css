@@ -1,0 +1,42 @@
+body {
+            margin: 0 10%;
+            font: 1.25rem/1.75rem sans-serif;
+            color: white;
+            background-color: darkslategrey;
+            text-align: center;
+        }
+        header { 
+            background-color: #0F172A;
+            text-align: center;
+            padding: 12px;
+            margin-bottom: 36px;
+        }
+        h1 {
+            color: WHITE;
+            font: bold 1.75rem sans-serif;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            margin: 0;
+        }
+        h2 {
+            color: orange;
+            font: bold 1.25rem sans-serif;
+            text-align: center;
+            font-size: 1.35rem;
+        }
+        h3 nav ul {
+            color: orange;
+            font: bold 1.25rem sans-serif;
+            text-align: center;
+            font-size: 1.25rem;
+            display: flex;
+            padding: o;
+            margin: 0;
+            list-style: none;
+            justify-content: left;
+            gap: 30px;
+        }
+        h3 ul a {
+            color: aqua;
+        }

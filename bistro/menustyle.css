@@ -1,0 +1,69 @@
+html {
+  font-size: 100%;
+}
+body {
+  font-family: Georgia, serif;
+  text-align: center;
+  line-height: 1.75;
+  margin: 0 15% 0;
+  background-color: #cdd7ae;
+  background-image: url(images/bullseye.png);
+  background-position: top center;
+  background-attachment: fixed;
+}
+header {
+  margin-top: 0;
+  padding: 3em 1em 2em 1em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .5);
+  background-image: url(images/gooseshadow.png), url(images/blackgoose.png);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 3em bottom, center;
+  background-size: auto, contain;
+}
+h1 {
+  font: bold 400 2.5rem "Julius Sans One", Verdana, sans-serif;
+  color: #993399;
+  text-shadow: .1em .1em .05em gainsboro;
+}
+h2 {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1em;
+  color: rgb(51, 6, 110);
+}
+dt {
+  font-weight: bold;
+  color: purple;
+}
+strong {
+  font-style: italic;
+}
+dt strong {
+  color: blueviolet;
+}
+#info {
+  color: cadetblue;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-style: italic;
+  color: gray;
+}
+.label {
+  font-variant: small-caps;
+  font-style: normal;
+}
+p.warning, sup {
+  font-size: small;
+  color: tomato;
+}
+h1, h2, #info {
+  text-align: center;
+}
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
